@@ -1,0 +1,85 @@
+.container{
+    display: grid;
+    grid-gap: 130px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+   height: 100vh;
+    justify-content: center;
+    row-gap: 50px;
+    column-gap: 50px;
+}
+
+.grid{
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: minmax(140,auto);
+    justify-content: center;
+    grid-gap: 80px;
+    
+    height: 100vh;
+    row-gap: 50px;
+    column-gap: 80px;
+
+  }
+  h1{
+    border: solid rgb(62, 175, 17);
+    text-align: center;
+    display: inline;
+    width: 230px;
+    background-color: rgb(163, 163, 58);
+
+  }
+  
+  body{
+    text-align: center;
+    
+    background-color: rgb(46, 146, 196);
+  }
+  .google{
+    border: solid rgb(6, 6, 14);
+    height: 306px;
+   
+  }
+  .apple{
+    border: solid rgb(3, 3, 8);
+    height: 337px;
+   
+  }
+  .microsoft{
+    border: solid rgb(6, 6, 12);
+    width: 500px;
+    height: 332px;
+   
+  }
+  .arm{
+    border: solid rgb(5, 5, 10);
+    height: 342px;
+   
+  }
+  .amd{
+    border: solid rgb(5, 5, 10);
+    height: 301px;
+   
+  }
+ 
+  .nvdia{
+    border: solid rgb(5, 5, 10);
+    height: 390px;
+   
+  }
+  .quallcom{
+    border: solid rgb(59, 59, 188);
+    height: 220px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+   
+  }
+  .oracle{
+    border: solid black;
+    height: 280px;
+    width: 500px;
+    
+  }
+  .intel{
+    border: solid black;
+    
+  }
